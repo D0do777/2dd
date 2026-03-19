@@ -155,8 +155,8 @@ document.getElementById("gameOver").style.display="block"
 }
 
 function restartGame(){
-
-location.reload()
+window.location.reload()
+}
 
 }
 
