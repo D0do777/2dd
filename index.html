@@ -2,11 +2,20 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<title>Gravity Pixel Game</title>
+<title>Gravity Game</title>
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <canvas id="game"></canvas>
-    <script src="js/game.js"></script>
+
+<canvas id="game"></canvas>
+
+<div id="gameOver">
+<h1>GAME OVER</h1>
+<button onclick="restartGame()">Relancer une partie</button>
+</div>
+
+<script src="game.js"></script>
+
 </body>
 </html>
