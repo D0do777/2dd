@@ -158,7 +158,6 @@ function restartGame(){
 window.location.reload()
 }
 
-}
 
 function draw(){
 
